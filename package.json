@@ -1,0 +1,54 @@
+{
+  "name": "terrazzo",
+  "description": "terrazzo terrazzo terrazzo",
+  "version": "1.0.0",
+  "author": "Matt Seccafien <mseccafien@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cartogram/terrazzo.git"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "start": "serve ./public",
+    "dev": "gatsby develop",
+    "graphql-types": "gql-gen --url http://localhost:8000/___graphql --template typescript --out ./src/graphql-types.d.ts",
+    "lint": "eslint \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.223",
+    "gatsby-link": "^1.6.38",
+    "gatsby-plugin-google-analytics": "^1.0.20",
+    "gatsby-plugin-google-fonts": "^0.0.3",
+    "gatsby-plugin-offline": "^1.0.15",
+    "gatsby-plugin-react-helmet": "^2.0.6",
+    "gatsby-plugin-styled-components": "^2.0.9",
+    "gatsby-plugin-typescript": "^1.4.18",
+    "graphql-code-generator": "^0.8.14",
+    "react-helmet": "^5.2.0",
+    "serve": "^6.5.2",
+    "styled-components": "^3.1.6",
+    "typescript": "^2.7.2"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.9",
+    "@types/jest": "^22.1.4",
+    "@types/node": "^9.4.6",
+    "@types/react": "^16.0.40",
+    "@types/react-helmet": "^5.0.5",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.18.2",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-shopify": "^19.0.0",
+    "jest": "^22.4.2",
+    "prettier": "^1.11.1"
+  }
+}
